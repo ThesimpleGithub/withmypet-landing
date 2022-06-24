@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_804" data-name="사각형 804" width="1920" height="845" transform="translate(2070 1829)" fill="#18181c"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1803" data-name="그룹 1803" transform="translate(0 -1720)">
+    <rect id="사각형_730" data-name="사각형 730" width="1920" height="845" transform="translate(0 1720)" fill="#fff8eb"/>
+    <g id="마스크_그룹_2" data-name="마스크 그룹 2" transform="translate(-2070 -109)" clip-path="url(#clip-path)">
+      <g id="그룹_869" data-name="그룹 869" transform="translate(2491 1507.351)" opacity="0.56">
+        <g id="그룹_1629" data-name="그룹 1629" transform="translate(0 5)">
+          <line id="선_18" data-name="선 18" x1="614.19" y2="651.992" transform="translate(862.946 20.436)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_19" data-name="선 19" x1="614.19" y2="651.992" transform="translate(891.11 50.334)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_20" data-name="선 20" x1="614.19" y2="651.992" transform="translate(919.274 80.231)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_21" data-name="선 21" x1="614.19" y2="651.992" transform="translate(947.438 110.128)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_22" data-name="선 22" x1="614.19" y2="651.992" transform="translate(975.602 140.026)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_23" data-name="선 23" x1="614.19" y2="651.992" transform="translate(1003.766 169.923)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g id="그룹_868" data-name="그룹 868">
+          <line id="선_24" data-name="선 24" x1="1163.139" y1="1234.728" transform="translate(0 239.179)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_25" data-name="선 25" x1="1163.139" y1="1234.728" transform="translate(28.164 209.281)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_26" data-name="선 26" x1="1163.139" y1="1234.728" transform="translate(56.328 179.384)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_27" data-name="선 27" x1="1163.139" y1="1234.728" transform="translate(84.492 149.487)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_28" data-name="선 28" x1="1163.139" y1="1234.728" transform="translate(112.656 119.589)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_29" data-name="선 29" x1="1163.139" y1="1234.728" transform="translate(140.82 89.692)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_30" data-name="선 30" x1="1163.139" y1="1234.728" transform="translate(168.983 59.795)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_31" data-name="선 31" x1="1163.139" y1="1234.728" transform="translate(197.147 29.897)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+          <line id="선_32" data-name="선 32" x1="1163.139" y1="1234.728" transform="translate(225.311)" fill="none" stroke="#ffd898" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

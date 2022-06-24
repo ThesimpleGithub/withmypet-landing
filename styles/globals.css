@@ -1,9 +1,46 @@
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: local('NanumMyeongjo'), url('/font/NanumMyeongjoBold.ttf');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: local('Noto Sans'), url('/font/NotoSansCJKkr-DemiLight.woff');
+}
+@keyframes fadeInOut {
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+:root {
+  --header-height: 80px;
+}
+@media (max-width: 768px) {
+  :root {
+    --header-height: 60px;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 html,
 body {
+  scroll-behavior: smooth;
+  width: 100vw;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Noto Sans';
 }
 
 a {
@@ -12,5 +49,6 @@ a {
 }
 
 * {
+  word-break: keep-all;
   box-sizing: border-box;
 }

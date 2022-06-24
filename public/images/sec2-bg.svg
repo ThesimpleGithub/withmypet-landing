@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="587" height="646" >
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_808" data-name="사각형 808" width="587" height="646" transform="translate(1333 1074)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="sec2-bg" transform="translate(-1333 -1074)" clip-path="url(#clip-path)">
+    <g id="타원_7" data-name="타원 7" transform="translate(1333 1074)" fill="none" stroke="#fff8eb" stroke-width="30">
+      <circle cx="79.5" cy="79.5" r="79.5" stroke="none"/>
+      <circle cx="79.5" cy="79.5" r="64.5" fill="none"/>
+    </g>
+    <g id="타원_5" data-name="타원 5" transform="translate(1436 1259)" fill="none" stroke="#fff8eb" stroke-width="40">
+      <circle cx="307.5" cy="307.5" r="307.5" stroke="none"/>
+      <circle cx="307.5" cy="307.5" r="287.5" fill="none"/>
+    </g>
+  </g>
+</svg>
