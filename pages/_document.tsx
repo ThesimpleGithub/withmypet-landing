@@ -21,13 +21,13 @@ export default class MyDocument extends Document {
       const initialProps = await Document.getInitialProps(ctx);
       return {
         ...initialProps,
-        styles: (
+        styles: [
           <>
             {/* <link href={`${process.env.PATH}/${process.env.NODE_ENV == "development" ? process.env.NODE_ENV : 'production'}Style.css`} rel="stylesheet"></link> */}
             {initialProps.styles}
             {sheet.getStyleElement()}
-          </>
-        ),
+          </>,
+        ],
       };
     } finally {
       sheet.seal();
