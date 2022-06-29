@@ -9,8 +9,8 @@ const Home = ({ parentRef }: { parentRef: IRef }) => {
       <MainTextWrapper data-aos="fade-up">
         <TextWrapper>
           <div>
-            슬픔의 처음부터 끝까지 <br />
-            함께하겠습니다.
+            당신의 반려동물을 <br />
+            영원히 기억하겠습니다.
           </div>
           <div>
             우리는 모두 언젠가 나의 반려동물이 삶이라는 여행을 끝내고

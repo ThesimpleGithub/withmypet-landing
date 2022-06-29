@@ -42,6 +42,7 @@ export default function MobileHeader({
             <ListItemButton
               onClick={() => {
                 sectionArrRef[text as menuType].current?.scrollIntoView();
+                // setState(false);
               }}
             >
               <ListItemText primary={text} />
@@ -55,7 +56,7 @@ export default function MobileHeader({
 
   return (
     <Wrapper isScrolled={isScrolled}>
-      <img src={'/images/CI-2.png'} />
+      <img src={'/images/logo.png'} />
       <button>
         <MenuIcon onClick={() => setState(true)} />
       </button>

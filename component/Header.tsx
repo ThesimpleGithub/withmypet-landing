@@ -16,7 +16,7 @@ const Header = ({ sectionArrRef }: { sectionArrRef: IMenuElem }) => {
   }, []);
   return (
     <Wrapper isScrolled={isScrolled}>
-      <img src={'/images/CI-2.png'} />
+      <img src={'/images/logo.png'} />
       <ul>
         {Object.keys(sectionArrRef).map(menu => (
           <li

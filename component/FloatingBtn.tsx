@@ -1,12 +1,15 @@
+import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 
 const FloatingBtn = () => {
   return (
-    <Wrapper>
-      <img src="/images/그룹 1614.svg" />
-      <span>체험하기</span>
-    </Wrapper>
+    <Link href={'/playgame'}>
+      <Wrapper>
+        <img src="/images/그룹 1614.svg" />
+        <span>체험하기</span>
+      </Wrapper>
+    </Link>
   );
 };
 
@@ -32,4 +35,5 @@ const Wrapper = styled.div`
         width : 15px;
     }
   `}
+  ${({ theme }) => theme.brownBtn}
 `;

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import React from 'react';
@@ -23,6 +24,9 @@ export default class MyDocument extends Document {
         ...initialProps,
         styles: [
           <>
+            <link href="webglStyle.css" rel="stylesheet" />
+            <script src="unity/UnityLoader.js"></script>
+            <script src="TemplateData/UnityProgress.js"></script>
             {/* <link href={`${process.env.PATH}/${process.env.NODE_ENV == "development" ? process.env.NODE_ENV : 'production'}Style.css`} rel="stylesheet"></link> */}
             {initialProps.styles}
             {sheet.getStyleElement()}

@@ -14,14 +14,14 @@ export const CommonTextWrapper = styled.div`
     font-size: 20px;
     line-height: 36px;
   }
-  ${({ theme }) => theme.media.tablet`
+  ${({ theme }) => theme.media.landscape`
     div:nth-child(1){
-        font-size : 6.94vw;
-        line-height : 9.72vw;
+        font-size : 6.94vmin;
+        line-height : 9.72vmin;
     }
     div:nth-child(2) {
-    font-size: 3.33vw;
-    line-height : 5vw;
+    font-size: 3.33vmin;
+    line-height : 5vmin;
   }
   `}
 `;

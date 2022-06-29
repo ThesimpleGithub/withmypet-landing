@@ -6,7 +6,7 @@ import { BgOpacity, CommonTextWrapper } from '../styles/commonElement';
 const Intro = ({ parentRef }: { parentRef: IRef }) => {
   return (
     <Wrapper ref={parentRef}>
-      <img src={'/images/2_사진옵션1.png'} />
+      <img src={'/images/Intro.png'} />
       <RightSection>
         <CommonTextWrapper data-aos="fade-up">
           <div>

@@ -13,6 +13,13 @@ const flexColumnSet = (just = 'center', align = 'center') => {
   align-items: ${align};`;
 };
 
+const brownBtn = `
+  transition: color, background-color 0.5s;
+  :hover {
+    background-color: #f7b84d;
+  }
+`;
+
 const bgSection = (url: string) => `
   z-index : 0;
   background-repeat: no-repeat;
@@ -36,6 +43,7 @@ export const theme = {
   flexColumnSet,
   flexSet,
   bgSection,
+  brownBtn,
   colors,
   media,
 };

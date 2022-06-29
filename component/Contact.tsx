@@ -103,6 +103,11 @@ const Header = styled.div`
   margin-bottom: 30px;
   font-size: 35px;
   font-family: 'NanumMyeongjo';
+  ${({ theme }) => theme.media.landscape`
+    font-size : 5vmin;
+    margin-bottom : 3vmin;
+    margin-top : 5vmin;
+  `}
 `;
 const FormWrapper = styled.div`
   z-index: 1;
@@ -118,12 +123,18 @@ const FormWrapper = styled.div`
     background: #ffffff 0% 0% no-repeat padding-box;
     opacity: 0.81;
     border: none;
+    ${({ theme }) => theme.media.tablet`
+    border-radius: 1vmin;
+  `}
   }
   label {
     color: white;
     margin-bottom: 4px;
     cursor: pointer;
     display: flex;
+    ${({ theme }) => theme.media.landscape`
+      font-size : 2vmin;
+  `}
   }
   input {
     width: 300px;
@@ -137,6 +148,10 @@ const FormWrapper = styled.div`
     clip-path: circle(62% at 50% 50%);
     opacity: 1;
     font-size: 16px;
+    ${({ theme }) => theme.media.landscape`
+    width: 3vmin;
+    height: 3vmin;
+  `}
   }
   input[type='submit'] {
     background-color: #c4913c;
@@ -145,14 +160,24 @@ const FormWrapper = styled.div`
     border-radius: 42px;
     opacity: 1;
     font-size: 16px;
+    ${({ theme }) => theme.media.landscape`
+    width : 26vmin;
+    height : 7vmin;
+    font-size : 2.5vmin;
+    padding : 0px;
+  `}
+    ${({ theme }) => theme.brownBtn}
   }
-  ${({ theme }) => theme.media.mobile`
+  textarea {
+    width: 620px;
+  }
+  ${({ theme }) => theme.media.landscape`
   input{
-    width: 43.85vw;
-    height: 7.89vw;
+    width: 35.85vw;
+    height: 5vmin;
   }
   textarea, div[data-type="agree"]{
-    width : 90.64vw;
+    width : 76vw;
   }
   `}
 `;
@@ -166,11 +191,13 @@ const InputWrapper = styled.div`
     display: flex;
     flex-direction: column;
   }
+  ${({ theme }) => theme.media.landscape`
+    width : 76vw;
+  `}
 `;
 
 const TextareaWrapper = styled.div`
   ${({ theme }) => theme.flexColumnSet('', 'left')}
-  width : 100%;
 `;
 
 const TextArea = styled.textarea`
