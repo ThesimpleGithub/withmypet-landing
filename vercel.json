@@ -1,0 +1,16 @@
+{
+  "public": true,
+  "routes": [
+    {
+      "src": "/unity/webglTest.data.unityweb",
+      "dest": "https://media.githubusercontent.com/media/thesimpleGithub/withmypet-landing/main/public/unity/webglTest.data.unityweb",
+      "headers": {
+        "Cache-Control": "s-maxage=36000",
+        "X-JacobFord-Test": "hello-world"
+      }
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
