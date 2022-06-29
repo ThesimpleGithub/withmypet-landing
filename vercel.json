@@ -5,8 +5,8 @@
       "src": "/unity/webglTest.data.unityweb",
       "dest": "https://media.githubusercontent.com/media/thesimpleGithub/withmypet-landing/main/public/unity/webglTest.data.unityweb",
       "headers": {
-        "Cache-Control": "max-age=36000",
-        "X-thesimple-Test": "hello-world"
+        "key": "Cache-Control",
+        "value": "public, max-age=36000, must-revalidate"
       }
     }
   ],
